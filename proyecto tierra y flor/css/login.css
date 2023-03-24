@@ -23,11 +23,35 @@ body {
     color: #fff;
     text-align: center;
 }
-
 .login-box .user-box {
-    
+    position: relative;
 }
-
 .login-box .user-box input {
-
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    background: transparent;
+}
+.login-box .user-box input:focus  label
+.login-box .user-box input:valid  label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+.login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 5%;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    color: #fff;
 }
